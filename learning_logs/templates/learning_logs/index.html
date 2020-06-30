@@ -1,0 +1,16 @@
+{%extends "learning_logs/base.html"%}
+
+{%block page_header%}
+
+<div class="jumbotron">
+    <h1 class="display-3">Track your learning.</h1>
+
+    <p class="lead">Make your own learning journal, and keep the list of
+    things you are learning about organized.When you learn something new
+    in a specific topic, make a new entry summarizing what you've learned.</p>
+
+    <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}"
+       role="button">Register &raquo;</a>
+</div>
+
+{% endblock page_header %}
